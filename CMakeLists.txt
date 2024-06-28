@@ -12,7 +12,6 @@ set_property(GLOBAL PROPERTY CXX_STANDARD_REQUIRED TRUE)
 
 option(RECASTNAVIGATION_DEMO "Build demo" ON)
 option(RECASTNAVIGATION_TESTS "Build tests" ON)
-option(RECASTNAVIGATION_EXAMPLES "Build examples" ON)
 option(RECASTNAVIGATION_DT_POLYREF64 "Use 64bit polyrefs instead of 32bit for Detour" OFF)
 option(RECASTNAVIGATION_DT_VIRTUAL_QUERYFILTER "Use dynamic dispatch for dtQueryFilter in Detour to allow for custom filters" OFF)
 
